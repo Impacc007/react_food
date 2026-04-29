@@ -1,5 +1,5 @@
 import logoImg from "../assets/logo.png";
-import Button from "./UI/Button";
+import Button from "./Button";
 
 export default function Header() {
   return (
@@ -9,7 +9,7 @@ export default function Header() {
         <h1>Microsoft Product</h1>
       </div>
       <nav>
-        <Button textOnly={true}>Cart (0)</Button>
+        <Button textOnly>Cart (0)</Button>
       </nav>
     </header>
   );
