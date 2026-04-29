@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -6,11 +6,11 @@
 
 body {
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#29251c, #2c2306);
-  color: #d9e2f1;
+  background: #fff;
+  color: #1e5ecc;
   min-height: 100vh;
 }
 
@@ -31,23 +31,19 @@ body {
   width: 4rem;
   height: 4rem;
   object-fit: contain;
-  border-radius: 50%;
-  border: 2px solid #ffc404;
 }
 
 #main-header button {
   font-size: 1.5rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 700;
   font-size: 2rem;
   margin: 0;
-  color: #ffc404;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
+  color: #343a40;
 }
 
 #meals {
@@ -62,7 +58,7 @@ h1 {
 }
 
 .meal-item {
-  background-color: #1d1a16;
+  background-color: #e7f5ff;
   border-radius: 1rem;
   overflow: hidden;
   text-align: center;
@@ -94,8 +90,8 @@ h1 {
 
 .meal-item-price {
   display: inline-block;
-  background-color: #312c1d;
-  color: #ffc404;
+  background-color: #1971c2;
+  color: #fff;
   font-size: 0.9rem;
   font-weight: bold;
   padding: 0.5rem 2rem;

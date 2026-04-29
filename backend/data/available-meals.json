@@ -1,142 +1,142 @@
 [
   {
     "id": "m1",
-    "name": "Mac & Cheese",
+    "name": "Microsoft Word",
     "price": "8.99",
-    "description": "Creamy cheddar cheese mixed with perfectly cooked macaroni, topped with crispy breadcrumbs. A classic comfort food.",
-    "image": "images/mac-and-cheese.jpg"
+    "description": "A powerful word processing application used to create, edit, and format documents with professional layouts and tools.",
+    "image": "images/outlook_1.avif"
   },
   {
     "id": "m2",
-    "name": "Margherita Pizza",
+    "name": "Microsoft Excel",
     "price": "12.99",
-    "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
-    "image": "images/margherita-pizza.jpg"
+    "description": "A spreadsheet tool designed for data analysis, calculations, and visualization using formulas, charts, and pivot tables.",
+    "image": "images/outlook_2.avif"
   },
   {
     "id": "m3",
-    "name": "Caesar Salad",
+    "name": "Microsoft PowerPoint",
     "price": "7.99",
-    "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
-    "image": "images/caesar-salad.jpg"
+    "description": "A presentation software that allows users to create engaging slideshows with animations, transitions, and multimedia.",
+    "image": "images/outlook_3.avif"
   },
   {
     "id": "m4",
-    "name": "Spaghetti Carbonara",
+    "name": "Microsoft Outlook",
     "price": "10.99",
-    "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
-    "image": "images/spaghetti-carbonara.jpg"
+    "description": "An email and calendar application that helps manage communication, schedules, contacts, and tasks in one place.",
+    "image": "images/outlook_4.avif"
   },
   {
     "id": "m5",
-    "name": "Veggie Burger",
+    "name": "Microsoft Teams",
     "price": "9.99",
-    "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
-    "image": "images/veggie-burger.jpg"
+    "description": "A collaboration platform for chat, video meetings, file sharing, and teamwork across organizations and remote teams.",
+    "image": "images/outlook_5.avif"
   },
   {
     "id": "m6",
-    "name": "Grilled Chicken Sandwich",
+    "name": "Microsoft OneNote",
     "price": "10.99",
-    "description": "Tender grilled chicken breast with avocado, bacon, lettuce, and honey mustard on a toasted bun.",
-    "image": "images/grilled-chicken-sandwich.jpg"
+    "description": "A digital note-taking app that allows you to organize notes, ideas, and tasks across devices in a flexible workspace.",
+    "image": "images/outlook_6.avif"
   },
   {
     "id": "m7",
-    "name": "Steak Frites",
+    "name": "Microsoft OneDrive",
     "price": "17.99",
-    "description": "Succulent steak cooked to your preference, served with crispy golden fries and herb butter.",
-    "image": "images/steak-frites.jpg"
+    "description": "A cloud storage service that lets you securely store, sync, and share files from anywhere on any device.",
+    "image": "images/outlook_7.avif"
   },
   {
     "id": "m8",
-    "name": "Sushi Roll Platter",
+    "name": "Microsoft Edge",
     "price": "15.99",
-    "description": "An assortment of fresh sushi rolls including California, Spicy Tuna, and Eel Avocado.",
-    "image": "images/sushi-roll-platter.jpg"
+    "description": "A fast and secure web browser built on Chromium, offering performance, privacy features, and seamless integration with Microsoft services.",
+    "image": "images/outlook_8.avif"
   },
   {
     "id": "m9",
-    "name": "Chicken Curry",
+    "name": "Microsoft Azure",
     "price": "13.99",
-    "description": "Tender pieces of chicken simmered in a rich and aromatic curry sauce, served with basmati rice.",
-    "image": "images/chicken-curry.jpg"
+    "description": "A cloud computing platform providing services for building, deploying, and managing applications through global data centers.",
+    "image": "images/outlook_9.avif"
   },
   {
     "id": "m10",
-    "name": "Vegan Buddha Bowl",
+    "name": "Microsoft Visual Studio",
     "price": "11.99",
-    "description": "A hearty bowl filled with quinoa, roasted veggies, avocado, and a tahini dressing.",
-    "image": "images/vegan-buddha-bowl.jpg"
+    "description": "An integrated development environment (IDE) used for building applications, debugging code, and managing software projects.",
+    "image": "images/outlook_10.avif"
   },
   {
     "id": "m11",
-    "name": "Seafood Paella",
+    "name": "Microsoft SQL Server",
     "price": "19.99",
-    "description": "A Spanish delicacy filled with saffron-infused rice, shrimp, mussels, and chorizo.",
-    "image": "images/seafood-paella.jpg"
+    "description": "A relational database management system designed for storing, retrieving, and managing large amounts of structured data.",
+    "image": "images/outlook_11.avif"
   },
   {
     "id": "m12",
-    "name": "Pancake Stack",
+    "name": "Microsoft Windows",
     "price": "8.99",
-    "description": "Fluffy pancakes stacked high, drizzled with maple syrup and topped with fresh berries.",
-    "image": "images/pancake-stack.jpg"
+    "description": "A widely used operating system that powers personal computers, offering a user-friendly interface and broad software support.",
+    "image": "images/outlook_12.avif"
   },
   {
     "id": "m13",
-    "name": "Miso Ramen",
+    "name": "Microsoft Defender",
     "price": "12.99",
-    "description": "A warming bowl of ramen with miso broth, tender pork, soft-boiled egg, and green onions.",
-    "image": "images/miso-ramen.jpg"
+    "description": "A security solution that provides real-time protection against viruses, malware, and other online threats.",
+    "image": "images/outlook_13.avif"
   },
   {
     "id": "m14",
-    "name": "Beef Tacos",
+    "name": "Microsoft SharePoint",
     "price": "9.99",
-    "description": "Three soft tortillas filled with seasoned beef, fresh salsa, cheese, and sour cream.",
-    "image": "images/beef-tacos.jpg"
+    "description": "A platform for collaboration and document management, enabling teams to share content and manage workflows efficiently.",
+    "image": "images/outlook_14.avif"
   },
   {
     "id": "m15",
-    "name": "Chocolate Brownie",
+    "name": "Microsoft Access",
     "price": "5.99",
-    "description": "A rich and fudgy brownie, topped with a scoop of vanilla ice cream and chocolate sauce.",
-    "image": "images/chocolate-brownie.jpg"
+    "description": "A database management tool for creating and managing relational databases with an easy-to-use interface.",
+    "image": "images/outlook_15.avif"
   },
   {
     "id": "m16",
-    "name": "Lobster Bisque",
+    "name": "Microsoft Dynamics 365",
     "price": "14.99",
-    "description": "A creamy soup made from lobster stock, aromatic vegetables, and a touch of brandy.",
-    "image": "images/lobster-bisque.jpg"
+    "description": "A suite of business applications that combines CRM and ERP capabilities to streamline operations and improve customer engagement.",
+    "image": "images/outlook_16.avif"
   },
   {
     "id": "m17",
-    "name": "Mushroom Risotto",
+    "name": "Microsoft Copilot",
     "price": "13.99",
-    "description": "Creamy Arborio rice cooked with a medley of wild mushrooms and finished with parmesan.",
-    "image": "images/mushroom-risotto.jpg"
+    "description": "An AI-powered assistant that helps users write, analyze, and automate tasks across Microsoft applications.",
+    "image": "images/outlook_17.avif"
   },
   {
     "id": "m18",
-    "name": "Eggplant Parmesan",
+    "name": "Microsoft Intune",
     "price": "11.99",
-    "description": "Layers of breaded eggplant, marinara sauce, and melted mozzarella and parmesan cheeses.",
-    "image": "images/eggplant-parmesan.jpg"
+    "description": "A cloud-based service for managing devices, apps, and security policies across an organization.",
+    "image": "images/outlook_18.avif"
   },
   {
     "id": "m19",
-    "name": "Lemon Cheesecake",
+    "name": "Microsoft Exchange",
     "price": "6.99",
-    "description": "A creamy cheesecake with a tangy lemon flavor, served on a crumbly biscuit base.",
-    "image": "images/lemon-cheesecake.jpg"
+    "description": "An enterprise email server solution that provides email, calendaring, and contact management services.",
+    "image": "images/outlook_19.avif"
   },
   {
     "id": "m20",
-    "name": "Falafel Wrap",
+    "name": "Microsoft Surface",
     "price": "8.99",
-    "description": "Crispy falafels wrapped in a warm pita with lettuce, tomatoes, and a tahini sauce.",
-    "image": "images/falafel-wrap.jpg"
+    "description": "A line of premium devices including laptops and tablets designed for productivity, portability, and performance.",
+    "image": "images/outlook_20.avif"
   }
 ]
