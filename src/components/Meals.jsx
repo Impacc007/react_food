@@ -14,7 +14,6 @@ export default function Meals() {
         console.log("Failed to fetch Data");
       } else {
         const meals = await response.json();
-        console.log(meals);
         setLoadMeals(meals);
       }
     }
