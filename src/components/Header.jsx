@@ -19,8 +19,8 @@ export default function Header() {
   return (
     <header id="main-header">
       <div id="title">
-        <img src={logoImg} alt="Microsoft product" />
-        <h1>Microsoft Product</h1>
+        <img src={logoImg} alt="Category" />
+        <h1>Category</h1>
       </div>
       <nav>
         <Button onClick={handleShowCart} textOnly>

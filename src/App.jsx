@@ -1,18 +1,20 @@
 import Header from "./components/Header";
 import Meals from "./components/Meals";
 import Cart from "./components/Cart";
+import Checkout from "./components/Checkout";
 import { CartContextProvider } from "./store/CartContext";
-import { UserProgressContetProvider } from "./store/UserProgressContext";
+import { UserProgressContextProvider } from "./store/UserProgressContext";
 
 function App() {
   return (
-    <UserProgressContetProvider>
+    <UserProgressContextProvider>
       <CartContextProvider>
         <Header />
         <Meals />
         <Cart />
+        <Checkout />
       </CartContextProvider>
-    </UserProgressContetProvider>
+    </UserProgressContextProvider>
   );
 }
 
