@@ -14,17 +14,21 @@ async function sendHttpRequest(url, config) {
 }
 
 //update the state base on the request status
-export default function useHttp(url, config, initialMeal) {
-  const [data, setData] = useState(initialMeal);
+export default function useHttp(url, config, initialData) {
+  const [data, setData] = useState(initialData);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState();
 
+  function clearData() {
+    setData(initialData);
+  }
+
   //use callback to avoid infinity loop
   const sendRequest = useCallback(
-    async function sendRequest() {
+    async function sendRequest(data) {
       setIsLoading(true);
       try {
-        const resData = await sendHttpRequest(url, config);
+        const resData = await sendHttpRequest(url, { ...config, body: data });
         setData(resData);
       } catch (error) {
         setError(error.message || "Something went wrong!");
@@ -36,7 +40,6 @@ export default function useHttp(url, config, initialMeal) {
 
   useEffect(() => {
     if ((config && (config.method === "GET" || !config.method)) || !config) {
-      console.log("request has been sent");
       sendRequest();
     }
   }, [sendRequest, config]);
@@ -46,5 +49,6 @@ export default function useHttp(url, config, initialMeal) {
     isLoading: isLoading,
     error: error,
     sendRequest: sendRequest,
+    clearData: clearData,
   };
 }

@@ -13,8 +13,6 @@ export function UserProgressContextProvider({ children }) {
 
   function showCart() {
     setUserProgress("cart");
-    console.log("Cart showed");
-    console.log("Cart progress status: ", userProgress);
   }
 
   function hideCart() {

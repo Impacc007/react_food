@@ -1,6 +1,9 @@
 import MealItem from "./MealItem";
+import Error from "./Error.jsx";
 import useHttp from "../hook/useHttp.js";
 
+//Set this to make sure requestConfig is stable object,
+//If not, it can trigger unfinity request since requestConfig is dependencies
 const requestConfig = {};
 
 export default function Meals() {
@@ -10,10 +13,12 @@ export default function Meals() {
     error,
   } = useHttp("http://localhost:3000/meals", requestConfig, []);
 
-  console.log(loadedMeals);
-
   if (isLoading) {
-    return <p>Fetching meals...</p>;
+    return <p className="center">Fetching data...</p>;
+  }
+
+  if (error) {
+    return <Error title="Failed to fetch data" message={error} />;
   }
   return (
     <ul id="meals">
