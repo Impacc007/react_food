@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "items": [
+      {
+        "id": "m1",
+        "name": "Microsoft Word",
+        "price": "8.99",
+        "description": "A powerful word processing application used to create, edit, and format documents with professional layouts and tools.",
+        "image": "images/outlook_1.avif",
+        "quantity": 2
+      }
+    ],
+    "customer": {
+      "name": "Natalya Gozales",
+      "email": "natalya@gmail.com",
+      "street": "123 Orchard street",
+      "postal-code": "700000",
+      "city": "Singapore"
+    },
+    "id": "311.2348060291383"
+  }
+]
